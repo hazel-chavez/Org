@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     margin: 80px 50px;
     flex-wrap: wrap;
-    gap: 20px; /*esapcio de columnas*/
+    gap: 20px; /*espacio de columnas*/
 }
 .formulario form{
     background-color: #f7f7f7;
@@ -13,6 +13,7 @@
     flex:1;
 }
 .formulario h2{
-    font-size: 32px;
+                    /* valor minimo no se reducira a mas,2-valor referente ira variando segun tamaña, valor maximo no sobrepasara*/
+    font-size: clamp(1.5,3vw,3.5);
     font-weight: 400px;
 }
