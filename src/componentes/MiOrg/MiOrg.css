@@ -6,7 +6,7 @@
 }
 .title {
     color: #6278F7;
-    font-size: 40px;
+    font-size: clamp(2rem,3vw,4rem);
     font-weight: 400;
     padding-bottom: 24px;
     border-bottom:  4px solid #6278F7;
@@ -15,4 +15,12 @@
     position: absolute;
     right: 30%;
     cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .orgSection img{
+    position: absolute;
+    left: 78%;
+    cursor: pointer;
+
+    }
 }
